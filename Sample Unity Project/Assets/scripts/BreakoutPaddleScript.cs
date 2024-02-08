@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PaddleScript : MonoBehaviour {
+public class BreakoutPaddleScript : MonoBehaviour {
     private float     xPos;
     public float      paddleSpeed = .05f;
     public float      topWall, bottomWall;
