@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BreakoutPaddleScript : MonoBehaviour {
     private float     xPos;
-    public float      paddleSpeed = .05f;
+    public float      paddleSpeed = 5f;
     public float      leftWall, rightWall;
 
     public KeyCode upKey, downKey;
