@@ -82,7 +82,7 @@ public class BreakoutBallScript : MonoBehaviour
         }
 
         // did we hit the Bottom
-        if (other.gameObject.tag == "Reset")
+        if (other.gameObject.tag == "reset")
         {
             //GameManager.S.lives -= 1;
             GameManager.S.LoseLife();
