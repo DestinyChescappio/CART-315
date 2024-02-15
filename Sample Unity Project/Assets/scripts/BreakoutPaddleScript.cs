@@ -5,7 +5,7 @@ using UnityEngine;
 public class BreakoutPaddleScript : MonoBehaviour {
     private float     xPos;
     public float      paddleSpeed = .05f;
-    public float      topWall, bottomWall;
+    public float      leftWall, rightWall;
 
     public KeyCode upKey, downKey;
 
@@ -17,18 +17,18 @@ public class BreakoutPaddleScript : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         if (Input.GetKey(downKey)) {
-            if (xPos > bottomWall) {
+            if (xPos > leftWall) {
                 xPos -= paddleSpeed;
             }
         }
 
         if (Input.GetKey(upKey)) {
-            if (xPos < topWall) {
+            if (xPos < rightWall) {
                 xPos += paddleSpeed;
             }
         }
 
-        transform.localPosition = new Vector3(transform.position.x, xPos, 0);
+        transform.localPosition = new Vector3(xPos,transform.position.y, 0);
     }
 }
 
