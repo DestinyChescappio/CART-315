@@ -1,6 +1,6 @@
-﻿#Weekly journal 
+﻿# Weekly journal 
 
-##January 25, 2024
+## January 25, 2024
 * Make a Thing! 
 This week was the first time I experimented with tiny game engines. I am pleased we did not dive straight into coding (though this class focuses on C## in unity), I was not the type of artist to be perfect at coding but I enjoy it. I experimented with bitsy and I am glad I chose this mini engine as it is quite easy to work with and very beginner friendly. I also found that bitsy brought some nostalgia considering it is pixel based. I made a bitsy game called, “Mewmew’s Gift giving” which was a cat being granted permission to explore its owner’s garden and collect an array of funky items. Though it was not a win or lose game and more of an exploration game, I had fun experimenting with this sort of exploration game. I was happy with the outcome however there were a few things to keep in mind which was to properly set the garden’s walls as objects that prevent the cat from going through. I would have like to explore more into making complex games with additional designs; I learned I am able to work with my own pixel designs that have more detail and color variation, and also incorporate my own unique code to the bitsy html file. Overall, bitsy is an overall great tool for beginners and an excellent starting point to a bigger and more complex game. 
 
