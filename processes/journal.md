@@ -41,3 +41,28 @@ Notes to keep in mind:
 ·	Add an acceleration to the ball (has something to do with material?)
 ·	Fix the brick’s space/distance with each other. 
 ·	Add a scoreboard (will learn from prof tonight)
+
+* SHMUP Notes: 
+
+0) Game Manager
+- Score
+- lives
+- weapons
+- time
+- Start & Game Over
+
+1) Player L/R & UP/DOWN
+input key - Projectiles (INST)
+    - GO > BULLET (MOV/SCRIPT)
+
+2) Enemies
+Projectiles movement shooting out
+
+3) Enemy Manager
+- Spawn
+
+4) Things getting spawned
+- health
+- friends/allies
+- bonus weapons
+- obstacles 
