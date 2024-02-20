@@ -21,7 +21,13 @@ public class MoveRightLeft : MonoBehaviour
     {
         Vector2 pos = transform.position;
 
-        pos.x -= moveSpeed * Time.fixedDeltaTime; 
+        pos.x -= moveSpeed * Time.fixedDeltaTime;
+
+        //enemy goes away after some time 
+        if (pos.x < -2)
+        {
+            Destroy(gameObject);
+        }
 
         transform.position = pos; 
     }
