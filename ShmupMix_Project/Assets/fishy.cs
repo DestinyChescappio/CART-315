@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class fishy : MonoBehaviour
 {
     //array ofguns
     Gun[] guns;
 
     float moveSpeed = 3;
-    public float leftWall, rightWall, topWall, bottomWall;
+    //public float leftWall, rightWall, topWall, bottomWall;
+    
 
     //boolean actions
     bool moveUp;
@@ -25,6 +27,7 @@ public class fishy : MonoBehaviour
     void Start()
     {
         guns = transform.GetComponentsInChildren<Gun>(); //the fishy recognizing the array 'children' of guns 
+       
     }
 
     // Update is called once per frame
