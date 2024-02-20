@@ -101,7 +101,7 @@ public class fishy : MonoBehaviour
         {
             pos.y = 1;
         }
-        if (pos.y >= 9)
+        if (pos.y >= 9) //9 before
         {
             pos.y = 9;
         }
