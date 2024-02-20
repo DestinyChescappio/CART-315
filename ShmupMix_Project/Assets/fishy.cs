@@ -24,7 +24,7 @@ public class fishy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        guns = transform.GetComponentInChildren<Gun>(); //the fishy recognizing the array 'children' of guns 
+        guns = transform.GetComponentsInChildren<Gun>(); //the fishy recognizing the array 'children' of guns 
     }
 
     // Update is called once per frame
