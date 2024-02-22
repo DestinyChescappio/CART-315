@@ -67,6 +67,51 @@ Projectiles movement shooting out
 - bonus weapons
 - obstacles
 
+## February 16-22
+Shmup Creative Process 
+Step 1:
+- Made basic sprite object (player) move up, down, left, and right with keys
+
+Step 2:
+- Made basic sprite object (enemy) move on x axis
+
+step 3: 
+- Made a gun and bullet for player 
+- Added a script to both enemy and player to be interactive with one another
+
+step 4: 
+- Made bullet shoot consistently shoot on x axis and die after 3 secs
+- Made bullet to shoot at enemy => enemy disappears (collision & rigid components added)
+
+step 5:
+- Made health meter for fish health (rectangle image fill amount decrease script)
+- Made scoreboard for how many enemies are collided with bullet (shoot)
+
+step 6:
+- Made enemy + player collision decrease fill amount of health meter
+- Made additional scenes (Lose, menu, win)
+- Made enemy movement on x axis in sin wave (math things!)
+
+step 7:
+- Testing movements and interactivity
+- Editing and revising movement & mechanics
+- Replaced sprites with prettier designs (used pixel art)
+
+
+Key Elements:
+- Fishy (player)
+- Bubble (bullet object to shoot garbage enemies)
+- Garbage (enemy objects to decline fishy health)
+- Scoreboard (how many garbage objects collected)
+- Health Meter (Fishy's health decreases 20% if touches garbage object) 
+  
+* Side-view perspective
+* Fishy avoids flying garbage
+* Fishy shoots garbage
+* Garbage declines fishy health meter
+* Fixed shooters shmup type
+
+
 ## Design Journal
 The Game I choose to discuss about is Sons of the Forest which is a game I finished, and I am quite proud of my completion. Sons of the Forest is an extension (or second part of the original The Forest). It is a single or multiplayers game that consists of a mission that the player/s must survive in a cannibal and mutant monster infested forest. In dept the players who are military officers are hired by PuffCorp is dispatched to an island called "Site 2" to search for Edward Puffton (PuffCorp's founder and CEO), his wife Barbara, and his 20-year-old daughter Virginia, who have been missing for several months. In the beginning of the game the military officers (players) are in military helicopters flying over the forest and somehow end up crashing. Luckily, the player/s survive alongside their companion, Kelvin, a non-player character who is another military officer that lost his hearing and is unable to talk. 
 
