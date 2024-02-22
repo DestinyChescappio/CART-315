@@ -121,3 +121,15 @@ The Sons of the Forest is an excellent game if you are looking for survival game
 
 In the future, I plan to make survival games based on my Indigenous culture however, I would replace the mutants and cannibals with some fictional creatures from legends. I would expand the forest and make it as big as Elden Ring (which is quote large). In terms of techniques, I would borrow the methods of collecting materials to combine and build stuff like shelters and weapons; it requires some critical thinking and puzzle-making. 
 
+## February 22, 2024
+Shmup Mix Peer Feedback
+- change the background for aesthethic purposes
+- Add levels
+- Fishy movement is cool when it collides with a garbage piece
+- Game feels too easy (make levels to make it harder - maybe add a boss enemy/garbage?)
+- Menu and instructions is a nice touch for new players!
+- Add some sound!
+- Maybe add a large net to ensure difficulty??
+- Focus on the fishy's bullet (maybe add more variety of what he is shooting?)
+- Fishy boundary is too soon
+- Make the game longer (add more points required for winning) 
