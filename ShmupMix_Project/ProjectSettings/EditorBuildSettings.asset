@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/LoserScene.unity
-    guid: eb0f9e3aeb85f4b429d2603a633c20ac
+    path: Assets/Scenes/Menu.unity
+    guid: d415d8c31df16453d8e4ef728223d612
   - enabled: 1
     path: Assets/shmupMix_proj.unity
     guid: f9d6f114ce2bb42d0870c2d4ec315a84
+  - enabled: 1
+    path: Assets/Scenes/LoserScene.unity
+    guid: eb0f9e3aeb85f4b429d2603a633c20ac
   - enabled: 1
     path: Assets/Scenes/WinnerScene.unity
     guid: 13fbcf100bddd4f7bb12dc9d2668dd58

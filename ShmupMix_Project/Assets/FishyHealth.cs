@@ -20,10 +20,10 @@ public class FishyHealth : MonoBehaviour
         //using fill amount for health + maxHealth
         healthBar.fillAmount = Mathf.Clamp(health / maxHealth, 0, 1);
 
-        //if(healthBar.fillAmount < 0.9)
-        //{
-        //  SceneManager.LoadScene("LoserScene");
-        //}
+        if (healthBar.fillAmount < 0.05)
+        {
+            SceneManager.LoadScene("LoserScene");
+        }
     }
 
    

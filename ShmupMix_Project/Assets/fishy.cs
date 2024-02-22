@@ -8,7 +8,7 @@ public class fishy : MonoBehaviour
     //array ofguns
     Gun[] guns;
 
-    float moveSpeed = 6;
+    float moveSpeed = 8;
     //public float leftWall, rightWall, topWall, bottomWall;
     
 
@@ -40,7 +40,7 @@ public class fishy : MonoBehaviour
         moveLeft = Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A);
         moveRight = Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D);
 
-        shoot = Input.GetKeyDown(KeyCode.LeftControl);
+        shoot = Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift);
 
     //checking if fishy shoots
     if (shoot)
