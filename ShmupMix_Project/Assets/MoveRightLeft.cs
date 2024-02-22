@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveRightLeft : MonoBehaviour
 {
-    public float moveSpeed = 4;
+    public float moveSpeed = 6;
 
 
 
@@ -30,7 +30,7 @@ public class MoveRightLeft : MonoBehaviour
         if (pos.x < -10)
         {
             //  Destroy(gameObject);
-            Vector2 resetPosition = new Vector2(15, transform.position.y);
+            Vector2 resetPosition = new Vector2(10, transform.position.y);
             transform.position = resetPosition;
 
         }
