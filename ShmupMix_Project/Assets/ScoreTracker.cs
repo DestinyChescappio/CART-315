@@ -20,11 +20,11 @@ public class ScoreTracker : MonoBehaviour
     private void Update()
     {
         score.text = scoreValue.ToString();
-        //if (scoreValue >= 10)
-        //{
-        //        SceneManager.LoadScene("WinnerScene");
-            
-        //}
+        if (scoreValue >= 12)
+        {
+            SceneManager.LoadScene("WinnerScene");
+
+        }
     }
 
 

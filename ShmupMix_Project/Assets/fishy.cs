@@ -8,7 +8,7 @@ public class fishy : MonoBehaviour
     //array ofguns
     Gun[] guns;
 
-    float moveSpeed = 3;
+    float moveSpeed = 6;
     //public float leftWall, rightWall, topWall, bottomWall;
     
 

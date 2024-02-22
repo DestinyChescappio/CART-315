@@ -5,19 +5,19 @@ using UnityEngine;
 public class MoveRightLeft : MonoBehaviour
 {
     public float moveSpeed = 5;
-  
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void FixedUpdate()
@@ -27,11 +27,17 @@ public class MoveRightLeft : MonoBehaviour
         pos.x -= moveSpeed * Time.fixedDeltaTime;
 
         //enemy goes away after some time 
-        if (pos.x < -2)
+        if (pos.x < -10)
         {
-            Destroy(gameObject);
-        }
+            //  Destroy(gameObject);
+            Vector2 resetPosition = new Vector2(15, transform.position.y);
+            transform.position = resetPosition;
 
-        transform.position = pos; 
+        }
+        else
+        {
+
+            transform.position = pos;
+        }
     }
 }
