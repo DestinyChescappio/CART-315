@@ -121,3 +121,69 @@ The Sons of the Forest is an excellent game if you are looking for survival game
 
 In the future, I plan to make survival games based on my Indigenous culture however, I would replace the mutants and cannibals with some fictional creatures from legends. I would expand the forest and make it as big as Elden Ring (which is quote large). In terms of techniques, I would borrow the methods of collecting materials to combine and build stuff like shelters and weapons; it requires some critical thinking and puzzle-making. 
 
+## February 22, 2024
+Shmup Mix Peer Feedback
+- change the background for aesthethic purposes
+- Add levels
+- Fishy movement is cool when it collides with a garbage piece
+- Game feels too easy (make levels to make it harder - maybe add a boss enemy/garbage?)
+- Menu and instructions is a nice touch for new players!
+- Add some sound!
+- Maybe add a large net to ensure difficulty??
+- Focus on the fishy's bullet (maybe add more variety of what he is shooting?)
+- Fishy boundary is too soon
+- Make the game longer (add more points required for winning)
+
+## Final Game Design Ideas:
+1) Girl in the red Coat
+- Side-view
+- 2D pixel game
+- Similar to 'super mario' + shmup
+The Mechanics: 
+      - collecting sun rays = rare item that must be collected throughout levels 
+      - collecting medicine plants = healing to fill health bar
+      - collecting tools & weapons (arrows, rocks, sticks, rope) -> if collected, weapon is made then player can use to hunt animals (caribou, rabbit, ptarmigan) for "bonus" powerups to prepare for big boss (this should be thoroughly designed)
+      - Getting hit by small enemies (must think & design about) = health bar decreases 
+      - If enough items collected = gets to the "sun" (a diety that has knowledge + power) assigns the player to fight the boss
+      - Fighting boss (darkness/evil) - this should be thoroughly designed = Winning game
+  The Visuals:
+  - Menu scene, Winning scene, losing scene, five levels???
+Menu Scene: Title, about (for educational stuff to learn about game), Resume??
+Winning Scene: Winning text, retry, small animation? 
+Losing scene: Losing text, retry, go back to position of player's last scene/level 
+
+Possible Design Goal Values:
+- Experience
+- Theme
+- Point of View
+- Challenge
+- Decision Making
+- Skill, Strategy, chance & uncertainty
+- Context
+- Emotion
+
+Design Goal chosen (Stating a challenge): 
+1. How to make a a video game to explore cultural values without the use of violence/shooting? 
+2. How to not make shmup violent?
+3. How to make a game that explores storytelling + culture?
+
+HYBRID MIX!
+shmup + super mario style -> current idea ^^^
+nurse 
+super hero 
+librarian 
+nature
+healer
+collector/gatherer
+adventure 
+shmup adventure 
+
+Draft Notes from 'speed dating (gaming)' with peers (a mashup of ideas session): 
+Skateboard - collecting knowledge of skateboard tricks (collecting different npc's = different outcomes that either increase/decrease your chances of winning) <REMIX!> Indigenous Super Hero - collecting elements of knowledge of cultural stuff (depending how much you/what you collect = different outcomes that either increase/decrease your chances of winning) 
+
+Prototype Idea #1
+Deck of cards (blank cards) 
+* Cards are split based on the elements of the game (medicine/plants, (rocks, sticks, rope to make weapon = hunting traditional food), language, clothes, and sun-rays.
+* Find a way to play the game with cards' prototype
+
+    
