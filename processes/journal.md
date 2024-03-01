@@ -134,7 +134,7 @@ Shmup Mix Peer Feedback
 - Fishy boundary is too soon
 - Make the game longer (add more points required for winning)
 
-## Final Game Design Ideas:
+## Design Journal - Final Game Design Ideas:
 1) Girl in the red Coat
 - Side-view
 - 2D pixel game
@@ -182,8 +182,36 @@ Draft Notes from 'speed dating (gaming)' with peers (a mashup of ideas session):
 Skateboard - collecting knowledge of skateboard tricks (collecting different npc's = different outcomes that either increase/decrease your chances of winning) <REMIX!> Indigenous Super Hero - collecting elements of knowledge of cultural stuff (depending how much you/what you collect = different outcomes that either increase/decrease your chances of winning) 
 
 Prototype Idea #1
-Deck of cards (blank cards) 
+Deck of cards (blank cards) - collecting game
 * Cards are split based on the elements of the game (medicine/plants, (rocks, sticks, rope to make weapon = hunting traditional food), language, clothes, and sun-rays.
 * Find a way to play the game with cards' prototype
 
-    
+Prototype Idea #2
+Visual Cards - puzzle game 
+Character state: strength low (10%), no knowledge = no strength, if no strength = can't fight monster
+Key Factors: collect items that make more items that lead to strengthing + power to defeat the boss
+
+What the character stats looks like:
+Mind 
+Body 
+Spirit
+Knowledge 
+
+* Main elements to build on:
+1) Labrador plant + water = Medicinal tea for the body - health up (2%-5%) 
+2) Cedar + water = medicinal tea for the mind - health up (2%-5%)
+3) Sage + sacred fire = medicinal smudge for spirit - health up (2%-5%)
+4) Sacred Fire (rare item) = 10-20 collected - knowledge up (2%-5%) + cut scene of meeting with the sun deity
+
+The challenge:
+* Balance between how much yopu have and what you can make. If there is an imbalance, the chances of beating the monster is none to very little.
+
+Prototype Idea #3
+Visual Cards - Adventure + SHMUP
+* Similar to Prototype Idea #2 but with more action + more stuff 
+
+Main Elements that changed
+1) Collecting things but without having to make something out of it but to collect it for health/power-ups (eg: Super Mario with coins)
+2) Being able to hunt and eat wild animals for powerups (could be gory to some people due to cultural differences & triggers)
+3) A narrative/shmup/adventure game 
+
