@@ -134,7 +134,7 @@ Shmup Mix Peer Feedback
 - Fishy boundary is too soon
 - Make the game longer (add more points required for winning)
 
-## Final Game Design Ideas:
+## Design Journal - Final Game Design Ideas:
 1) Girl in the red Coat
 - Side-view
 - 2D pixel game
@@ -182,8 +182,63 @@ Draft Notes from 'speed dating (gaming)' with peers (a mashup of ideas session):
 Skateboard - collecting knowledge of skateboard tricks (collecting different npc's = different outcomes that either increase/decrease your chances of winning) <REMIX!> Indigenous Super Hero - collecting elements of knowledge of cultural stuff (depending how much you/what you collect = different outcomes that either increase/decrease your chances of winning) 
 
 Prototype Idea #1
-Deck of cards (blank cards) 
+Deck of cards (blank cards) - collecting game
 * Cards are split based on the elements of the game (medicine/plants, (rocks, sticks, rope to make weapon = hunting traditional food), language, clothes, and sun-rays.
 * Find a way to play the game with cards' prototype
 
-    
+Prototype Idea #2
+Visual Cards - puzzle game 
+Character state: strength low (10%), no knowledge = no strength, if no strength = can't fight monster
+Key Factors: collect items that make more items that lead to strengthing + power to defeat the boss
+
+What the character stats looks like:
+Mind 
+Body 
+Spirit
+Knowledge 
+
+* Main elements to build on:
+1) Labrador plant + water = Medicinal tea for the body - health up (2%-5%) 
+2) Cedar + water = medicinal tea for the mind - health up (2%-5%)
+3) Sage + sacred fire = medicinal smudge for spirit - health up (2%-5%)
+4) Sacred Fire (rare item) = 10-20 collected - knowledge up (2%-5%) + cut scene of meeting with the sun deity
+
+The challenge:
+* Balance between how much yopu have and what you can make. If there is an imbalance, the chances of beating the monster is none to very little.
+
+Prototype Idea #3
+Visual Cards - Adventure + SHMUP
+* Similar to Prototype Idea #2 but with more action + more stuff 
+
+Main Elements that changed
+1) Collecting things but without having to make something out of it but to collect it for health/power-ups (eg: Super Mario with coins)
+2) Being able to hunt and eat wild animals for powerups (could be gory to some people due to cultural differences & triggers)
+3) A narrative/shmup/adventure game 
+
+## Prototype Stage 1
+Description: Prototype 1 concsisted of a paper prototype to ensure that the methods/process of gameplay was efficient and fun for my peers to experiment. In this stage, it was also meant to capture the game's motives and emotional feel of the game's aesthetics of cultural knowledge. The game consisted a variety of cards which were carried out through elements that players must collect which were: 
+- Rocks + sticks = making an arrow
+- Arrow + caribou = making a Naskapi (Indigenous) hunter's clothing
+- Water + cedar = medicinal tea (healing element)
+- Water + labrador = medicinal tea (healing element)
+- Fire + sage = medicinal smudge (healing element) 
+- Green disease = enemy (non-healing element) 
+
+The Goal: The player must collect from the pile of cards (hopwever must not collect an item more than once). If they get 'hit' by a green disease 3x, they lose however they have chances to get rid of the green disease if they run into medicinal plants (cedar, sage, labrador) with their assigned alements like either fire or water. Throughout gameplay, their end-goal is to collect the Naskapi hunter's coat through collecting the other elements (rocks, sticks, then caribou). 
+
+Feedback from peers & What I learned: 
+- A great game to teach culture!
+- There should be more options to do with the fire elements
+- Find more options/elements to make it more challenging
+- Add levels
+- Add some scenes? -> this would be nice but I am focusing more on interactivity (should scenes be part of the experience?) 
+- Maybe make this into a card game? -> The reason I chose this to be a card/paper prototype was to have the player FEEL the critical thinking behind the material/element collecting component of the game (My main goal is to make this into a Super Mario 2D side scroller/collecting game!)
+
+The Next Steps:
+1. Make the objects collectible in Unity by the protogonist (Wapino)
+2. Begin some interactivity & think about how to implement health and damage points with the elements collected/hit
+3. Think how to make it challenging & adding levels
+4. Main Focus: Start implementing the visuals (some pixel art & minimal interactivity in Unity)
+
+![prototype1](https://github.com/DestinyChescappio/CART-315/assets/90113915/c3639d4e-75dc-4b86-a459-9ad9df6cb548)
+
