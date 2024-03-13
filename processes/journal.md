@@ -215,3 +215,29 @@ Main Elements that changed
 2) Being able to hunt and eat wild animals for powerups (could be gory to some people due to cultural differences & triggers)
 3) A narrative/shmup/adventure game 
 
+## Prototype Stage 1
+Description: Prototype 1 concsisted of a paper prototype to ensure that the methods/process of gameplay was efficient and fun for my peers to experiment. In this stage, it was also meant to capture the game's motives and emotional feel of the game's aesthetics of cultural knowledge. The game consisted a variety of cards which were carried out through elements that players must collect which were: 
+Rocks + sticks = making an arrow
+Arrow + caribou = making a Naskapi (Indigenous) hunter's clothing
+Water + cedar = medicinal tea (healing element)
+Water + labrador = medicinal tea (healing element)
+Fire + sage = medicinal smudge (healing element) 
+Green disease = enemy (non-healing element) 
+
+The Goal: The player must collect from the pile of cards (hopwever must not collect an item more than once). If they get 'hit' by a green disease 3x, they lose however they have chances to get rid of the green disease if they run into medicinal plants (cedar, sage, labrador) with their assigned alements like either fire or water. Throughout gameplay, their end-goal is to collect the Naskapi hunter's coat through collecting the other elements (rocks, sticks, then caribou). 
+
+Feedback from peers & What I learned: 
+- A great game to teach culture!
+- There should be more options to do with the fire elements
+- Find more options/elements to make it more challenging
+- Add levels
+- Add some scenes? -> this would be nice but I am focusing more on interactivity (should scenes be part of the experience?) 
+- Maybe make this into a card game? -> The reason I chose this to be a card/paper prototype was to have the player FEEL the critical thinking behind the material/element collecting component of the game (My main goal is to make this into a Super Mario 2D side scroller/collecting game!)
+
+The Next Steps:
+1. Make the objects collectible in Unity by the protogonist (Wapino)
+2. Begin some interactivity & think about how to implement health and damage points with the elements collected/hit
+3. Think how to make it challenging & adding levels
+
+![prototype1](https://github.com/DestinyChescappio/CART-315/assets/90113915/c3639d4e-75dc-4b86-a459-9ad9df6cb548)
+
