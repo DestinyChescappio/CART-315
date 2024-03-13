@@ -217,12 +217,12 @@ Main Elements that changed
 
 ## Prototype Stage 1
 Description: Prototype 1 concsisted of a paper prototype to ensure that the methods/process of gameplay was efficient and fun for my peers to experiment. In this stage, it was also meant to capture the game's motives and emotional feel of the game's aesthetics of cultural knowledge. The game consisted a variety of cards which were carried out through elements that players must collect which were: 
-Rocks + sticks = making an arrow
-Arrow + caribou = making a Naskapi (Indigenous) hunter's clothing
-Water + cedar = medicinal tea (healing element)
-Water + labrador = medicinal tea (healing element)
-Fire + sage = medicinal smudge (healing element) 
-Green disease = enemy (non-healing element) 
+- Rocks + sticks = making an arrow
+- Arrow + caribou = making a Naskapi (Indigenous) hunter's clothing
+- Water + cedar = medicinal tea (healing element)
+- Water + labrador = medicinal tea (healing element)
+- Fire + sage = medicinal smudge (healing element) 
+- Green disease = enemy (non-healing element) 
 
 The Goal: The player must collect from the pile of cards (hopwever must not collect an item more than once). If they get 'hit' by a green disease 3x, they lose however they have chances to get rid of the green disease if they run into medicinal plants (cedar, sage, labrador) with their assigned alements like either fire or water. Throughout gameplay, their end-goal is to collect the Naskapi hunter's coat through collecting the other elements (rocks, sticks, then caribou). 
 
