@@ -238,6 +238,7 @@ The Next Steps:
 1. Make the objects collectible in Unity by the protogonist (Wapino)
 2. Begin some interactivity & think about how to implement health and damage points with the elements collected/hit
 3. Think how to make it challenging & adding levels
+4. Main Focus: Start implementing the visuals (some pixel art & minimal interactivity in Unity)
 
 ![prototype1](https://github.com/DestinyChescappio/CART-315/assets/90113915/c3639d4e-75dc-4b86-a459-9ad9df6cb548)
 
