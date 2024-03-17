@@ -5,9 +5,9 @@ using UnityEngine;
 public class Wapino_move : MonoBehaviour
 {
     public int playerSpeed = 10;
-    public bool facingRight = true;
+    private bool facingRight = false;
     public int playerJumpPower = 1250;
-    public float moveX; 
+    private float moveX; 
     // Start is called before the first frame update
     //void Start()
     //{
@@ -23,6 +23,10 @@ public class Wapino_move : MonoBehaviour
     {
         //controls
         moveX = Input.GetAxis("Horizontal");
+        if(Input.GetButtonDown("Jump"))
+        {
+            Jump();
+        }
      //animations
      //player direction
         if (moveX < 0.0f && facingRight == false)
@@ -39,7 +43,8 @@ public class Wapino_move : MonoBehaviour
 
     void Jump()
     {
-     //player jumping 
+        //player jumping
+        GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
     }
 
     void FlipPlayer()
