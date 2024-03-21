@@ -7,7 +7,8 @@ public class Wapino_move : MonoBehaviour
     public int playerSpeed = 10;
     private bool facingRight = false;
     public int playerJumpPower = 1250;
-    private float moveX; 
+    private float moveX;
+    public bool isGrounded;
     // Start is called before the first frame update
     //void Start()
     //{
@@ -23,7 +24,7 @@ public class Wapino_move : MonoBehaviour
     {
         //controls
         moveX = Input.GetAxis("Horizontal");
-        if(Input.GetButtonDown("Jump"))
+        if(Input.GetButtonDown("Jump") && isGrounded == true)
         {
             Jump();
         }
@@ -45,6 +46,7 @@ public class Wapino_move : MonoBehaviour
     {
         //player jumping
         GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
+        isGrounded = false;
     }
 
     void FlipPlayer()
@@ -53,5 +55,14 @@ public class Wapino_move : MonoBehaviour
         Vector2 localScale = gameObject.transform.localScale;
         localScale.x *= -1;
         transform.localScale = localScale;
+    }
+
+    void OnCollisionEnter2D (Collision2D col)
+    {
+        Debug.Log("player has collided with" + col.collider.name);
+        if (col.gameObject.tag == "ground")
+        {
+            isGrounded = true; 
+        }
     }
 }
