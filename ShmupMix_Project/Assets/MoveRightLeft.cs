@@ -27,7 +27,7 @@ public class MoveRightLeft : MonoBehaviour
         pos.x -= moveSpeed * Time.fixedDeltaTime;
 
         //enemy goes away after some time 
-        if (pos.x < -10)
+        if (pos.x < -26)
         {
             //  Destroy(gameObject);
             Vector2 resetPosition = new Vector2(10, transform.position.y);

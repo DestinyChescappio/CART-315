@@ -4,17 +4,32 @@ using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
+   
+    public float moveSpeed;
     public int EnemySpeed;
-    public int XMoveDirection;
+
+    //public int XMoveDirection;
+
+    private Transform wapinoo;
+    private Rigidbody2D rb; 
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        wapinoo = GameObject.FindGameObjectWithTag("Player").transform;
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+     void Update()
     {
-        gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(XMoveDirection, -1) * EnemySpeed;
+        if (wapinoo != null)
+        {
+        //direction of enemy going to wapinoo 
+        Vector2 direction = new Vector2(wapinoo.position.x - transform.position.x, 0).normalized;
+            //velocity of enemy following wapinoo oh no!
+            rb.velocity = direction * EnemySpeed;
+    }
+
     }
 }
