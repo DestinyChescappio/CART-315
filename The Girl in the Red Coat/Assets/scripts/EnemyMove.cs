@@ -25,7 +25,7 @@ public class EnemyMove : MonoBehaviour
     {
         if (wapinoo != null)
         {
-        //direction of enemy going to wapinoo 
+        //direction of enemy going to wapinoo on x axis 
         Vector2 direction = new Vector2(wapinoo.position.x - transform.position.x, 0).normalized;
             //velocity of enemy following wapinoo oh no!
             rb.velocity = direction * EnemySpeed;
