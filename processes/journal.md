@@ -215,8 +215,8 @@ Main Elements that changed
 2) Being able to hunt and eat wild animals for powerups (could be gory to some people due to cultural differences & triggers)
 3) A narrative/shmup/adventure game 
 
-## Prototype Stage 1
-Description: Prototype 1 concsisted of a paper prototype to ensure that the methods/process of gameplay was efficient and fun for my peers to experiment. In this stage, it was also meant to capture the game's motives and emotional feel of the game's aesthetics of cultural knowledge. The game consisted a variety of cards which were carried out through elements that players must collect which were: 
+## Conceptualizing
+Description: The concept consisted of a paper prototype to ensure that the methods/process of gameplay was efficient and fun for my peers to experiment. In this stage, it was also meant to capture the game's motives and emotional feel of the game's aesthetics of cultural knowledge. The game consisted a variety of cards which were carried out through elements that players must collect which were: 
 - Rocks + sticks = making an arrow
 - Arrow + caribou = making a Naskapi (Indigenous) hunter's clothing
 - Water + cedar = medicinal tea (healing element)
@@ -242,3 +242,26 @@ The Next Steps:
 
 ![prototype1](https://github.com/DestinyChescappio/CART-315/assets/90113915/c3639d4e-75dc-4b86-a459-9ad9df6cb548)
 
+## Prototype: Stage 01
+Description: This stage would be focused on the look/feel aspect of the prototype stage as I focused on the appearance of the game and how it would look like in Unity. At this stage, I had the protogonist semi-functional with some movements. The Girl in the Red Coat is a game that is about collecting knowledge and avoiding colonialism. 
+
+Goal: The  player plays the protogonist (Wapino) and must run away from the floating green disease (colonialism) and is on a mission to find herself and especially find her ways of cultural traditions in medicine, hunting, and traditional clothing. Based from the Naskapi Nation's cultural values, the game's goals is to encounter stages in this mission which are critical thinking collection processes (for example: if wapino gets hit by the disease, she must collect medicinal plants and its coordinating elements such as fire or water in order to heal), she then encounters other elements such as stones, sticks, to help build traditional tools and eventually has to hunt a caribou in order to get to the "final boss" that leads her to the Naskapi coat made out of caribou hide. 
+
+The Questions I have to consider?
+- Is this cultural significant and reflect on the character's story? Yes. Wapino has been an ongoing project I developed a few years ago with character design, concept design, environmental design, etc.
+- Did this successfully turn into a 2D pixel interactive video game as intended compared to the conceptualization? Yes. However I adjusted some functions and methods of the game such as changing the character's abilities and functionality. There is much more needed to do.
+- Did the storyline and method of gameplay change? No. My initial goal is to establish a cultural plot of collecting knowledge while maintaining critical thinking involved with the player.
+
+What I learned:
+- There is a lot of implementation of behavior scripts. Can I show only a part of interacting with one of the elements instead of all? I have many plants, I have fire/water objects, caribou, arrows, rocks, sticks, etc. Which is A LOT!
+- This 2D side scroller game can be more than one type of game. It could be a mix of shmup, super mario, and puzzle game!
+- There should be more options of usage with some elements (maybe some shooting behaviors for the player?)
+
+Next Steps:
+1. Begin more complex implementation like camera movement, enemy behaviors, collisions, etc.
+2. Consider if the collisions with ALL elements are neccessary OR showing one example with a object is ok?
+3. Add a health bar! 
+4. Add some cut scenes? is this neccessary for a prototype?
+5. How much work is too much for a prototype? Think about this.
+
+<img width="1440" alt="Screenshot 2024-03-28 at 2 56 50 PM" src="https://github.com/DestinyChescappio/CART-315/assets/90113915/6d2eb100-019f-43b1-a277-cbe617f9b795">
