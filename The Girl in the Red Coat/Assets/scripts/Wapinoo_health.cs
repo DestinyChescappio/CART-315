@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Wapinoo_health : MonoBehaviour
 {
-  
+    public float health;
    
     // Update is called once per frame
     void Update()
