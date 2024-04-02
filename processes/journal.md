@@ -265,3 +265,23 @@ Next Steps:
 5. How much work is too much for a prototype? Think about this.
 
 <img width="1440" alt="Screenshot 2024-03-28 at 2 56 50 PM" src="https://github.com/DestinyChescappio/CART-315/assets/90113915/6d2eb100-019f-43b1-a277-cbe617f9b795">
+
+## Prototype: Stage 02
+Description: This stage would be focused on implementation prototype as I focused on the functionality of the game and not fully completing it. I find this stage takes time with moving forward to the final stages of completion. Wapino (player) can move, jump, and die by falling past a certain point. Camera follows Wapino's movements. Health bar is built but not functional yet! The enemy is the other major component that is functional in terms of behavior. Enemy is able to float and follow wapino. There is also collision but no visual interaction besides it showing in the console. Wapino can collide with plants (how to not make wapino not "move" these?) Concept and theme remain the same. Technological and functional stuff is heavy duty in this one! 
+
+Goal: The goals remain the same as the last two entries. Nothing changed :) EXCEPT... the enemy bevahvior. Though I aimed for a moving enemy continuosly moving across the x axis, I had the enemy follow the player. This is important to know because I added more concept to the enemy instead of the old idea of a "shmup" enemy moving without a sense of direction. This would be a good base of understanding that the game is mix combination of shmup/super-mario/puzzle/adventure game! 
+
+The Questions I have to consider?
+- I considered the initial conceptualization of combining various game themes/methods into one for my final game idea. Pretty cool :)
+- How to make Wapino not "move" the plants/elements?
+- I'm thinking about having the enemy shoot bullets? is it too much since it's already following player?
+
+Next Steps: 
+1. Connect health bar to wapino + enemy collisions
+2. Connect health bar to wapino + plants/elements (example: if wapino collides with lab tea + water = health goes up)
+3. Make fire + sage = health up but ALSO make fire collectable and its amount collected showed on a score? Hmmm...
+4. Make speed of enemy faster after each level (make 3 levels just to show "samples" since this is a prototype...)
+5. Add a timer to game so Wapino must collect this many fire objects + eventually kill enemy (enemy must have a health bar as well??) 
+
+<img width="1440" alt="Screenshot 2024-03-29 at 6 12 41 PM" src="https://github.com/DestinyChescappio/CART-315/assets/90113915/8216d1db-24ef-420e-a288-dbb1ee5d4b9a">
+
