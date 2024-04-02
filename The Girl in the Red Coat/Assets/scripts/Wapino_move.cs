@@ -9,10 +9,13 @@ public class Wapino_move : MonoBehaviour
     public int playerJumpPower = 1250;
     private float moveX;
     public bool isGrounded;
+    public int fireCollected = 0;
+    public int sageCollected = 0;
+    public GameObject HealthManager;
     // Start is called before the first frame update
     //void Start()
     //{
-        
+
     //}
 
     // Update is called once per frame
@@ -57,6 +60,17 @@ public class Wapino_move : MonoBehaviour
         transform.localScale = localScale;
     }
 
+    void increaseHealth()
+    {
+        Debug.Log(fireCollected);
+        Debug.Log(sageCollected);
+        Debug.Log("hehehrhehrher");
+        if (fireCollected >= 1 && sageCollected>=1)
+        {
+            HealthManager.GetComponent<HealthManager>().Heal(20);
+        }
+    }
+
     void OnCollisionEnter2D (Collision2D col)
     {
         Debug.Log("player has collided with" + col.collider.name);
@@ -64,5 +78,17 @@ public class Wapino_move : MonoBehaviour
         {
             isGrounded = true; 
         }
+
+        if (col.collider.name == "firePrefab")
+        {
+            fireCollected += 1;
+            increaseHealth();
+        }
+        if (col.collider.name == "sagePrefab")
+        {
+            sageCollected += 1;
+            increaseHealth();
+        }
+       
     }
 }

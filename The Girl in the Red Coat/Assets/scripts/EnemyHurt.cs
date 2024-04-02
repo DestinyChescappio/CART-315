@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class EnemyHurt : MonoBehaviour
 {
-
-    public Wapinoo_health playerHealth;
+    public GameObject HealthManager; 
+    //public Wapinoo_health playerHealth;
     public float damage;
     // Start is called before the first frame update
     void Start()
@@ -23,8 +23,9 @@ public class EnemyHurt : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            playerHealth.health -= damage;
-            Debug.Log("hit");
+            //playerHealth.health -= damage;
+            HealthManager.GetComponent<HealthManager>().TakeDamage(damage);
+            Debug.Log("hitPlayer");
         }
     }
 }

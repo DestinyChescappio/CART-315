@@ -41,32 +41,33 @@ public class HealthManager : MonoBehaviour
     }
 
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Player")) //if player collides with enemy 
-        {
-            TakeDamage(20); 
-            Debug.Log("hit");
+    //private void OnCollisionEnter2D(Collision2D other)
+    //{
+    //    if (other.gameObject.CompareTag("Player")) //if player collides with enemy 
+    //    {
+    //        TakeDamage(20); 
+    //        Debug.Log("hit");
 
-        }
+    //    }
 
         //when enemy touches player function passing through a float called damage - adjust this later on for if player touches enemy !!!
-        void TakeDamage(float damage)
+        public void TakeDamage(float damage)
         {
             //health amoount is decreased
             healthAmount -= damage;
             //the fill amount is divided by the max health 100f
             healthBar.fillAmount = healthAmount / 100f;
+
+        Debug.Log(healthAmount);
         }
 
 
-        //When the player heals - opposite of damage function - adjust this later on for if player touches Lab tea, cedar, sage + water or fire !!!
-        //void Heal(float healingAmount)
-        //{
-        //    healthAmount += healingAmount;
-        //    healthAmount = Mathf.Clamp(healthAmount, 0, 100);
+    //When the player heals - opposite of damage function - adjust this later on for if player touches Lab tea, cedar, sage + water or fire !!!
+    public void Heal(float healingAmount)
+    {
+        healthAmount += healingAmount;
+        healthAmount = Mathf.Clamp(healthAmount, 0, 100);
 
-        //    healthBar.fillAmount = healthAmount / 100f;
-        //}
+        healthBar.fillAmount = healthAmount / 100f;
     }
 }
