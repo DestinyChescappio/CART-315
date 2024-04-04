@@ -285,3 +285,26 @@ Next Steps:
 
 <img width="1440" alt="Screenshot 2024-03-29 at 6 12 41 PM" src="https://github.com/DestinyChescappio/CART-315/assets/90113915/8216d1db-24ef-420e-a288-dbb1ee5d4b9a">
 
+## Prototype: Stage 03
+Description: This stage is focused on the implementation stage. It remains this stage because I am still in the process of adding more interactivity in the game. As stated before, I find implementation takes time. In my opinion at least, implementation is what makes the game a game! A few things added compared to last prototype 02: The health bar works, Wapino health decreases when touching enemy, wapino health increases when touching sage and fire (which are the main elements about the game - yay!) Wapino is also able to shoot fire. 
+
+Goal: The goal remains the same in the last entries. I think the goals of wapino vs enemy interations might change from original idea though... There might be a final "fight" or "final level". 
+
+The Questions I have to consider? 
+* Does the appearance of the "bullet fires" wapino shoots out are the same appearance as the ones collected?
+* Should I add more elements to be collected?
+* How might I make each level challenging if I were to add levels?
+
+Next Steps:
+1. Tweak the "fire bullet"'s movement and velocity
+2. Apply decrease/increase health bar effects to other elements
+3. Tweak with how elements are moving (they should NOT be moving!)
+4. Consider other moving elements for player to "catch" them?? (idea in the air - not serious)
+5. Debug/fix anything wrong with gameplay (enemy sticks to wapino is annoying, wapino SLIGHTLY sticking to box collider objects is annoying)
+6. Make enemy faster if levels are applied - MAYBE
+7. Make a timer? - Idk about this one...
+
+<img width="1440" alt="Screenshot 2024-04-04 at 2 36 04 PM" src="https://github.com/DestinyChescappio/CART-315/assets/90113915/65070235-65ce-4337-9d17-8cf463c690dc">
+
+
+
