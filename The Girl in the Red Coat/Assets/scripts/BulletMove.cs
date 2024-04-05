@@ -6,7 +6,7 @@ public class BulletMove : MonoBehaviour
 {
 
     public Vector2 direction = new Vector2(1, 0); //moving at: x=1 & y=0
-    public float speed = 2;
+    public float speed = 5;
 
     public Vector2 velocity;
 

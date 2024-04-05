@@ -11,12 +11,15 @@ public class Wapino_move : MonoBehaviour
     public bool isGrounded;
     public int fireCollected = 0;
     public int sageCollected = 0;
+
+    public bool sageFire;
+
     public GameObject HealthManager;
     // Start is called before the first frame update
-    //void Start()
-    //{
-
-    //}
+    void Start()
+    {
+        sageFire = false;
+    }
 
     // Update is called once per frame
     void Update()
@@ -83,12 +86,24 @@ public class Wapino_move : MonoBehaviour
         {
             fireCollected += 1;
             increaseHealth();
+            sageFire = true;
         }
         if (col.collider.name == "sagePrefab")
         {
             sageCollected += 1;
             increaseHealth();
+            sageFire = true; 
         }
-       
+        //if (col.collider.name == "waterPrefab")
+        //{
+        //    sageCollected += 1;
+        //    increaseHealth();
+        //}
+        //if (col.collider.name == "cedarPrefab")
+        //{
+        //    sageCollected += 1;
+        //    increaseHealth();
+        //}
+
     }
 }
