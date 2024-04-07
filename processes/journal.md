@@ -306,5 +306,21 @@ Next Steps:
 
 <img width="1440" alt="Screenshot 2024-04-04 at 2 36 04 PM" src="https://github.com/DestinyChescappio/CART-315/assets/90113915/65070235-65ce-4337-9d17-8cf463c690dc">
 
+## Prototype: Stage 04
+Description: This stage is still focused on implementation but very close to the inegration stage (I guess finalizing the prototype? - But of course it is never finished!). Right now, I mainly focused on integrating the game's mechanics and eventually to the dynamics like: if the wapino player collides with the following enemy, then she is able to collect a sage plant and fire to make some medicinal properties which ultimately heal her. This is the main aspect I focused on completing my prototype to promote cultural and medicinal knowledge that eventually lead the player to collect additional elements. The additional elements eventually appear in the game which is the branch and rock which "makes" a spear (a new bullet - her old bullet was her fire super powers from the sun; a cultural thing I added from my culture's stories and legends). The spear appears and wapino is now able to shoot the caribou that shows up later in the game. 
+
+Goal: I successfully reached my goal of a 2D-side-scroller Indigenous game that the player can collect knowledge (simutaneously learning medicinal properties & storytelling)! Woohoo! 
+
+The Questions I have to consider? 
+* I should add a cut scene of a caribou coat after caribou is k!lled? Will it be an underwheling experience if the object just shows up without a form of celebration for the player?
+* Is the game too violent despite my cultural differences?
+
+Next steps: 
+1. Add mini enemies for wapino to shoot
+2. make cut scene of caribou coat? hmmm...
+3. Apply healing script to other elements for more experience for my prototype audience?
+4. How to make enemy not "get stuck" into other objects? (this is a prototype but should I worry about this?) 
+
+<img width="1440" alt="Screenshot 2024-04-07 at 12 02 57 AM" src="https://github.com/DestinyChescappio/CART-315/assets/90113915/1aa0412c-3c9e-4755-adc0-65eeabf711a7">
 
 
