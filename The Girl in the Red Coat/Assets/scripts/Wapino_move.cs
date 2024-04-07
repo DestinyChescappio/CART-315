@@ -9,22 +9,33 @@ public class Wapino_move : MonoBehaviour
     public int playerJumpPower = 1250;
     private float moveX;
     public bool isGrounded;
-    public int fireCollected = 0;
-    public int sageCollected = 0;
+    public bool fireCollected = false;
+    public bool sageCollected = false;
 
-    public bool sageFire;
+    public bool rockCollected = false;
+    public bool branchCollected = false; 
 
     public GameObject HealthManager;
+
+    public GameObject spear;
     // Start is called before the first frame update
     void Start()
     {
-        sageFire = false;
+        spear = this.gameObject.transform.GetChild(0).gameObject;
+        spear.SetActive(false);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        PlayerMove();  
+        PlayerMove();
+
+        if (rockCollected == true && branchCollected == true)
+        {
+            spear.SetActive(true);
+        }
+       
     }
     void PlayerMove()
     {
@@ -65,10 +76,8 @@ public class Wapino_move : MonoBehaviour
 
     void increaseHealth()
     {
-        Debug.Log(fireCollected);
-        Debug.Log(sageCollected);
-        Debug.Log("hehehrhehrher");
-        if (fireCollected >= 1 && sageCollected>=1)
+        
+        if (fireCollected == true && sageCollected == true)
         {
             HealthManager.GetComponent<HealthManager>().Heal(20);
         }
@@ -84,15 +93,24 @@ public class Wapino_move : MonoBehaviour
 
         if (col.collider.name == "firePrefab")
         {
-            fireCollected += 1;
+            fireCollected = true;
             increaseHealth();
-            sageFire = true;
+            
         }
         if (col.collider.name == "sagePrefab")
         {
-            sageCollected += 1;
+            sageCollected = true;
             increaseHealth();
-            sageFire = true; 
+            
+        }
+        if (col.collider.name == "rock")
+        {
+            rockCollected = true;
+
+        }
+        if (col.collider.name == "branch")
+        {
+            branchCollected = true; 
         }
         //if (col.collider.name == "waterPrefab")
         //{

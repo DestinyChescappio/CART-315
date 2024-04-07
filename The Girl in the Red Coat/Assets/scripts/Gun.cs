@@ -7,7 +7,7 @@ public class Gun : MonoBehaviour
     
 {
     public GameObject prefab;
-   
+    public GameObject spear;
 
     public void shoot()
 
@@ -20,7 +20,8 @@ public class Gun : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        spear = this.gameObject.transform.GetChild(0).gameObject;
+        //spear.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,7 +29,15 @@ public class Gun : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.RightShift))
         {
-            shoot();
+            
+
+            if (spear.activeSelf == false)
+            {
+                shoot();
+            }
+            else {
+                spear.GetComponent<spearMove>().shoot = true;
+            }
         }
 
     }
