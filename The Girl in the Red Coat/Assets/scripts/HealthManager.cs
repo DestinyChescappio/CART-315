@@ -20,35 +20,9 @@ public class HealthManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        //if (healthAmount <= 0)
-        //{
-        //    SceneManager.LoadScene("SampleScene");
-        //}
-        ////if player is pressing return
-        //if (Input.GetKeyDown(KeyCode.Return))
-        ////if (("enemy").gameObject.CompareTag("Player"))
-        //{
-        //    //these functions happen 
-        //    TakeDamage(20);
-
-        //}
-        ////if pressing space 
-        //if (Input.GetKeyDown(KeyCode.RightShift))
-        //{
-        //    Heal(5);
-        //}
+      
     }
 
-
-    //private void OnCollisionEnter2D(Collision2D other)
-    //{
-    //    if (other.gameObject.CompareTag("Player")) //if player collides with enemy 
-    //    {
-    //        TakeDamage(20); 
-    //        Debug.Log("hit");
-
-    //    }
 
         //when enemy touches player function passing through a float called damage - adjust this later on for if player touches enemy !!!
         public void TakeDamage(float damage)

@@ -13,7 +13,10 @@ public class Wapino_move : MonoBehaviour
     public bool sageCollected = false;
 
     public bool rockCollected = false;
-    public bool branchCollected = false; 
+    public bool branchCollected = false;
+    public bool cedarCollected = false;
+    public bool waterCollected = false;
+    public bool labradorCollected = false;
 
     public GameObject HealthManager;
 
@@ -81,6 +84,10 @@ public class Wapino_move : MonoBehaviour
         {
             HealthManager.GetComponent<HealthManager>().Heal(20);
         }
+        if (cedarCollected|labradorCollected == true && waterCollected == true)
+        {
+            HealthManager.GetComponent<HealthManager>().Heal(20);
+        }
     }
 
     void OnCollisionEnter2D (Collision2D col)
@@ -103,25 +110,35 @@ public class Wapino_move : MonoBehaviour
             increaseHealth();
             
         }
+        if (col.collider.name == "cedarPrefab")
+        {
+            cedarCollected = true;
+            increaseHealth();
+        }
+        if (col.collider.name == "waterPrefab")
+        {
+            waterCollected = true;
+            increaseHealth();
+        }
+        if (col.collider.name == "labradorPrefab")
+        {
+            labradorCollected = true;
+            increaseHealth();
+        }
+
+
+
         if (col.collider.name == "rock")
         {
             rockCollected = true;
+            Destroy(col.collider.gameObject);
 
         }
         if (col.collider.name == "branch")
         {
-            branchCollected = true; 
+            branchCollected = true;
+            Destroy(col.collider.gameObject);
         }
-        //if (col.collider.name == "waterPrefab")
-        //{
-        //    sageCollected += 1;
-        //    increaseHealth();
-        //}
-        //if (col.collider.name == "cedarPrefab")
-        //{
-        //    sageCollected += 1;
-        //    increaseHealth();
-        //}
 
     }
 }

@@ -6,6 +6,10 @@ TagManager:
   tags:
   - deathZone
   - ground
+  - Enemy
+  - Branch
+  - Rock
+  - CaribouAnimal
   layers:
   - Default
   - TransparentFX

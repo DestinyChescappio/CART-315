@@ -17,6 +17,7 @@ public class Wapinoo_health : MonoBehaviour
         }
 
 
+
         void Die()
         {
             SceneManager.LoadScene("SampleScene");
