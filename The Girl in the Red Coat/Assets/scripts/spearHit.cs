@@ -17,17 +17,13 @@ public class spearHit : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
-
+    void OnCollisionEnter2D(Collision2D col)
     {
-
-        if (other.gameObject.CompareTag("CaribouAnimal")) //if bullet collides with this object
+        Debug.Log(col.collider.name);
+        if (col.collider.name == "caribou")
         {
-
             SceneManager.LoadScene("caribouCoat");
-
-
         }
-
     }
 }
+

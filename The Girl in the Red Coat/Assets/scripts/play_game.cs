@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class WinningPage : MonoBehaviour
+public class play_game : MonoBehaviour
 {
-    public void PlayGame()
+
+    public void StartGame()
     {
-        SceneManager.LoadScene("start");
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void OnMouseDown()
     {
-        PlayGame();
+        StartGame();
     }
 }
