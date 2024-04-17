@@ -323,4 +323,17 @@ Next steps:
 
 <img width="1440" alt="Screenshot 2024-04-07 at 12 02 57 AM" src="https://github.com/DestinyChescappio/CART-315/assets/90113915/1aa0412c-3c9e-4755-adc0-65eeabf711a7">
 
+##Final Design Journal
+Description: This stage is focused on finalizing and pitching the prototype. To finalize the prototype, I added mini enemies that had the same health decline effect on the player (wapino). I made cut scenes when wapino collects the spear and hits the caribou to display the hunter's coat. I also implemented the player collecting the rock + branch elements to be "tranformed" into a spear. I applied more healing elements for wapino's health to increase. In this part of healing elements (example: sage + fire) had to be debugged because I wanted the player to hit both elements for the healing to happen (before, wapino hit the fire and got healed which isn't what I wanted). I could not debug the enemies getting "stuck" to wapino but I think it had something to do with the box colliders. 
 
+Goal: The goal was to establish a game that has the player not only run, jump, and dodge the enemies, but to be educated about the game's cultural elements. I did not add a losing page because I wanted the prototype to be uninterrupted and to just have the player experiene the game without having to constantly restart the game. 
+
+Feedback: 
+- Add some pop-up bubbles or captions to inform the player what these "healing" elements do (example: cedar plant could have a description and why there needs to be water).
+- Make the caribou stage more challenging.
+
+Final Thought: In this project, I initially did not make a full game to release on Steam (that's not what prototyping is?). I wanted my peers to give feedback to implement more to make the game "interesting" in a way however as an Indigenous artist/student, I find it quite challenging to receive a lot of feedback due to cultural differences. I learned that next time, I will ask for technical feedback and be more specific before giving the impression that my peers can't comment on my work simply because it's cultural. I do agree that there needs to be more challenging aspects to the caribou hunting stage of the game, and that there needs to be informative pop-ups. Though I did not implement it recently, I do plan to do so later when I want to take this prototype further (this summer!). As part of the Design and Computational Art show committee, which takes a lot of work, I did not have the time to do so! I will post updates about my game on my website though if you are interested in future progress (or interested in my overall art!) here's the link to <a href="https://www.destinychescappioart.com/">my art website</a>
+
+And here's an image of a cover I made of my prototype: 
+
+![coverARt](https://github.com/DestinyChescappio/CART-315/assets/90113915/54e20f84-bd41-4d7e-b7f3-8100f7304c5d)
