@@ -323,7 +323,7 @@ Next steps:
 
 <img width="1440" alt="Screenshot 2024-04-07 at 12 02 57 AM" src="https://github.com/DestinyChescappio/CART-315/assets/90113915/1aa0412c-3c9e-4755-adc0-65eeabf711a7">
 
-##Final Design Journal
+## Final Design Journal
 Description: This stage is focused on finalizing and pitching the prototype. To finalize the prototype, I added mini enemies that had the same health decline effect on the player (wapino). I made cut scenes when wapino collects the spear and hits the caribou to display the hunter's coat. I also implemented the player collecting the rock + branch elements to be "tranformed" into a spear. I applied more healing elements for wapino's health to increase. In this part of healing elements (example: sage + fire) had to be debugged because I wanted the player to hit both elements for the healing to happen (before, wapino hit the fire and got healed which isn't what I wanted). I could not debug the enemies getting "stuck" to wapino but I think it had something to do with the box colliders. 
 
 Goal: The goal was to establish a game that has the player not only run, jump, and dodge the enemies, but to be educated about the game's cultural elements. I did not add a losing page because I wanted the prototype to be uninterrupted and to just have the player experiene the game without having to constantly restart the game. 
